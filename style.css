@@ -16,4 +16,5 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    margin: auto;
 }

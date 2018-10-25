@@ -16,5 +16,80 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
-    margin: auto;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.profil {
+    background-color: #31363b;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+.foto {
+    width: 250px;
+}
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    left: 195px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.obsah {
+    padding: 10px 15px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #bdc3c7;
+    font-size: 0.9em;
+}
+
+/*-----------ODKAZY-----------*/
+.odkazy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #bdc3c7;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #bdc3c7;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+a:hover {
+    color: white;
+}
+.portfolio {
+    border-top: solid 1px #3f464d;
+    border-bottom: solid 1px #3f464d;
+}
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+.facebook {
+    float: left;
+    border-right: solid 1px #3f464d;
+    width: 50%;
+}
+.facebook:hover {
+    background-color: #3b5998;
+}
+.twitter {
+    float: left;
+    width: 50%;
+}
+.twitter:hover {
+    background-color: #1da1f2;
 }
